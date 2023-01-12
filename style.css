@@ -1,0 +1,265 @@
+*{
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+
+.menu{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    border: 1px soklid white;
+    width: 1000px;
+    position:fixed;
+    z-index: 1;
+    top: 0px;
+
+}
+.menu img{
+    margin-top: 40px;
+}
+.menu img{
+    width: 140px;
+    height: 80px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    height: 10px;
+    width: 100px;
+    transition: 0.4s ease;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+li a:hover{
+    color: orange;
+    text-decoration: underline;
+    
+}
+.form{
+    height: 400px;
+    width: 300px;
+    border: 1px solid white;
+    position: absolute;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 25px;
+    top: 200px;
+    left: 700px;
+    background: transparent;
+    
+}
+.form h2{
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+
+}
+.form p{
+    color: white;
+    margin-top: 50px;
+    font-family: Helvetica;
+}
+.form input{
+    background: transparent;
+    border-right :none;
+    border-top: none; 
+    border-left: none;
+    color: white;
+    border-bottom: 1px solid orange;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family:monospace;
+    font-size: 18px;
+
+}
+.form input:focus{
+    outline: none;
+}
+.form button{
+    margin-top: 40px;
+    width: 220px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    background: rgb(255, 153, 0);
+    font-weight: bold;
+    font-family: Arial;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+.form button:hover{
+    background: white;
+    color: orange;
+    transition: 0.4s ease-in-out;
+}
+
+.form a:hover{
+    color: orange;
+}
+.content{
+    width: 650px;
+    height: 500px;
+    border: 1px so,lid white;
+    align-items:left;
+    color: white;
+    margin-top: 220px;
+    position: relative;
+    left: 20px;
+    
+}
+.content h1{
+    color: orange;
+    letter-spacing: 0.9px;
+    text-align: center;
+}
+.content p{
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-align: center;
+}
+.content h2{
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.order{
+    margin-top: 50px;
+}
+.content span{
+    top: 100px;
+    color: yellowgreen;
+    margin-top: 100px;
+    font-size: large;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+
+}
+
+.img1{
+    width: 100px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.img2{
+    width: 120px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 50px;
+
+}
+
+.service{
+    top: 200px;
+    color: white;
+    font-size: x-large;
+    width: 1100px;
+    text-align: center;
+    font-size: 23px;
+}
+.service h2{
+    color: gray;
+}
+.service h1{
+    color: orange;
+}
+.service h1{
+    letter-spacing: 10px;
+}
+
+.about{
+    color: white;
+    width: 1100px;
+    height: auto;
+    text-align: center;
+    font-size: 22px;
+    top: -100px;
+
+}
+.about h1{
+    color: orange;
+}
+.about h3{
+    color: gray;
+}
+.home a{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.contact1{
+    color: white;
+    width: 1100px;
+    height: 650px;
+    font-size: 22px;
+    margin-left: 320px;
+    
+}
+.contact1 input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: none;
+    border-right: 1px solid orange;
+    border-top: none;
+    border-bottom: 1px solid orange;
+    
+}
+.mov1{
+    margin-left: 100px;
+}
+.mov2{
+    margin-left: 20px;
+}
+.contact{
+    color: orange;
+    text-align: center;
+    width: 1100px;
+
+}
+.contact1 button{
+    background: orange;
+    border: none;
+    color: black;
+    border-radius: 25px;
+    width: 200px;
+    height: auto;
+    margin-left: 150px;
+}
+::placeholder{
+    text-align: center;
+}
+.contact1 textarea{
+    border-radius: 10px;
+}
+.contact1 input:focus{
+    outline: none;
+}
